@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future getWeather(String location) async {
     http.Response response = await http.get(
-        'http://api.openweathermap.org/data/2.5/weather?q=$location&appid=f88ebfc0fbb939e4fcb6f547d7b09603');
+        'http://api.openweathermap.org/data/2.5/weather?q=$location&appid=<TOKEN>');
     var results = jsonDecode(response.body);
     setState(() {
       this.temp = results['main']['temp'];
