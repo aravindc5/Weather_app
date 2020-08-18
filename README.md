@@ -1,6 +1,6 @@
 # Weatherapp
 
-A weather App using OpenWeather Api
+A Simple Weather App using OpenWeather Api
 
 ## Output
 ![WhatsApp Image 2020-08-18 at 4 38 29 PM](https://user-images.githubusercontent.com/30715919/90506158-71802900-e171-11ea-994e-bd6e8309ad63.jpeg)
